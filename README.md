@@ -1,3 +1,7 @@
+# Elementor extension details
+
+Elementor addon for Before After Image Comparison
+
 # SASS and JavaScript Setup
 
 - `npm i`
