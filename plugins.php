@@ -3,7 +3,7 @@
 Plugin Name: Custom Ele Addon
 Plugin URI: https://github.com/tastycrayon/custom-addon-elementor
 Description: This elementor addons helps you to create before and after image comparison slider. It comes with scrolling and touch support to slide the vertical slider over the image to see the before and after difference.
-Version: 1.0.0
+Version: 1.0.1
 Author: Mosiur
 Author URI: https://github.com/tastycrayon
 License: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -26,7 +26,7 @@ class CUSTOMELEADDON
      *
      * @var string
      */
-    public $version = '1.0.0';
+    public $version = '1.0.1';
 
     /**
      * Constructor for the CUSTOMELEADDON class

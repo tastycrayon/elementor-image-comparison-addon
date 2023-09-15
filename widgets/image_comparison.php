@@ -485,12 +485,6 @@ class CustomEleImageComparisonWidget extends \Elementor\Widget_Base
         </div>';
         }
 
-        // if (!empty($settings[$afterImageId]['url'])) {
-        //     $a_image_html .= '<img src="' . esc_url($settings[$afterImageId]['url']) . '" 
-        //     alt="' . Control_Media::get_image_alt($settings[$afterImageId]) . '" 
-        //     title="' . Control_Media::get_image_title($settings[$afterImageId]) . '" 
-        //     loading="lazy" class="image-after slider-image">';
-        // }
         $controls_default_position = 50;
         if (!empty($settings['customeleaddon_img_comparison_handle_control_position']["size"])) {
             $controls_default_position = $settings['customeleaddon_img_comparison_handle_control_position']["size"];
@@ -498,10 +492,10 @@ class CustomEleImageComparisonWidget extends \Elementor\Widget_Base
         ?>
         <div class="customeleaddon-image-comparison <?php echo $text_animation_class; ?>">
             <?php echo $a_text; ?>
-            <?php echo $b_image_html; ?>
+            <?php echo $a_image_html; ?>
             <div class="after-section">
+                <?php echo $b_image_html; ?>
                 <?php echo $b_text; ?>
-                <?php echo $a_image_html; ?>
             </div>
             <!-- sliders -->
             <input type="range" min="0" max="100" value="<?php echo $controls_default_position; ?>"
